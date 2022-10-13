@@ -1,0 +1,74 @@
+.container {
+    max-width: 1360px;
+    margin: 0 auto;
+    padding: 70px 60px;
+    display: flex;
+    gap: 20px;
+}
+.box {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.html-btn {
+    max-width: 250px;
+    margin-left: 80px ;
+    background-color: rgb(227,79,38);
+    background: linear-gradient(90deg, rgba(227,79,38,1) 50%, rgba(239,101,42,1) 100%);
+    border: inherit;
+    border-radius: 5px;
+    padding: 15px 25px;
+    color: #fff;
+ 
+}
+.html-btn:hover{
+
+   background: #ef652a;
+
+}
+.html-btn:active{
+    color: #000;
+    background: #ef652a;
+ 
+} 
+.css-btn {
+    max-width: 250px;
+    margin-left: 80px ;
+    background-color: rgb(27,115,186);
+    background: linear-gradient(90deg, rgba(27,115,186,1) 50%, rgba(28,136,199,1) 100%);
+    border: inherit;
+    border-radius: 5px;
+    padding: 15px 25px;
+    color: #fff;
+ 
+}
+.css-btn:hover{
+
+    background: #1c88c7;
+ 
+ }
+ .css-btn:active{
+     color: #000;
+     background: #1c88c7;
+  
+ } 
+.js-btn {
+    max-width: 250px;
+    margin-left: 80px ;
+    background-color: rgb(233,202,50);
+    background: linear-gradient(90deg, rgba(233,202,50,1) 50%, rgba(255,222,37,1) 100%);
+    border: inherit;
+    border-radius: 5px;
+    padding: 15px 25px;
+    color: #fff;
+}
+.js-btn:hover{
+
+    background: #ffde25;
+ 
+ }
+ .js-btn:active{
+     color: #000;
+     background: #ffde25;
+  
+ } 
